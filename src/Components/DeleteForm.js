@@ -46,7 +46,7 @@ const DeleteForm = ({ setDeleteFormOpen, id, setDeleteId }) => {
     let deleteResponse;
     try {
       deleteResponse = await axios.delete(
-        "https://servreviewapi.dsctiet.tech/",
+        "https://dohe.servatom.com/",
         { data: body }
       );
 

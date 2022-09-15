@@ -42,7 +42,7 @@ const AddReviewForm = ({ setAddFormOpen }) => {
   const onClick = (e) => {
     e.preventDefault();
     axios
-      .post("https://servreviewapi.dsctiet.tech/", formdata)
+      .post("https://dohe.servatom.com/", formdata)
       .then((res) => {
         if (res.status === 200) {
           setmessage(1);

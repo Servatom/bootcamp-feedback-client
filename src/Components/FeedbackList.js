@@ -6,7 +6,7 @@ const FeedbackList = ({ setDeleteId }) => {
   const [Feedbacks, setFeedbacks] = useState([]);
   useEffect(() => {
     const getData = async () => {
-      let res = await axios.get(`https://servreviewapi.dsctiet.tech/`);
+      let res = await axios.get(`https://dohe.servatom.com/`);
       if (res !== []) setFeedbacks(res.data.reverse());
     };
     getData();
